@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<main>		
+		<header>
+			<p>Contact Us</p>
+			<hr />
+			<h1>Cass's Cafe</h1>
+		</header>
+
+		<nav>
+		<hr />
+		<a href="index.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="contact.html">Contact Us</a>
+		<hr />
+		</nav>
+
+		<section>
+			<form action="fakePage.html" method="POST">
+				<!-- basic user information input -->
+				<label for="name">Name:</label>
+				<input id="name" type="text" name="name"><br />
+				<label for="email">Email:</label>
+				<input id="email" type="text" name="email"><br />
+				<label for="phone">Phone:</label>
+				<input id="phone" type="text" name="phone"><br />
+				<!--reason for inquiry selection  -->
+				<label for="inquiry">Reason for Inquiry:</label>
+				<select name="inquiry" id="inquiry">
+					<option value="catering">Catering</option>
+					<option value="party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br />
+				<!-- comments Section -->
+				<label for="comments">Additional Information:</label>
+				<textarea id="comments" name="comments"></textarea><br />
+				<!--restaurant visit radio input-->
+				<label for="visited">Have you been to the restaurant?</label>
+				<input id="visited" type="radio" name="visited" value="no">No
+				<input id="visited" type="radio" name="visited" value="yes">Yes <br />
+				<!-- availablity checkbox -->
+				<fieldset>
+				<legend>Best days to contact you:</legend>
+				<input  id="monday" type="checkbox" name="availability" value="monday">
+				<label for="monday">M</label>
+				<input  id="tuesday" type="checkbox" name="availability" value="tuesday">
+				<label for="tuesday">T</label>
+				<input  id="wednesday" type="checkbox" name="availability" value="wednesday">
+				<label for="wednesday">W</label>
+				<input  id="thursday" type="checkbox" name="availability" value="thursday">
+				<label for="thursday">Th</label>
+				<input  id="friday" type="checkbox" name="availability" value="friday">
+				<label for="friday">F</label> <br />
+				<!-- submit input -->
+				</fieldset>	
+				<input type="submit" name="submit" value="Send Request">
+			</form>
+		</section>
+
+		<footer>
+			<hr />
+			9269 Kapiolani Blvd, Honolulu, HI 96816 <br />
+			808-777-7667	
+			<hr />
+		</footer>
+	</main>
+</body>
+</html>
