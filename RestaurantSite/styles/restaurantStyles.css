@@ -1,0 +1,24 @@
+/*
+Creator: Mark McDermott
+Date created: 5/14/2020
+Date last modified: 5/15/2020
+*/
+body {
+	font-family: 'DM Mono', monospace;
+}
+
+section {
+	background-color: rgba(3, 115, 252, .3);
+}
+
+td h3, th{
+	background-color: rgba(3, 115, 252, .3);
+	display: inline-block;
+
+}
+nav .nav-link:visited {
+	color:black;
+}
+nav .nav-link:hover {
+	font-weight: bold;
+}
